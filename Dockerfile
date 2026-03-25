@@ -1,6 +1,6 @@
-FROM alpine:3.4
+FROM alpine:3.23.3
 
-RUN apk --update add nginx php5-fpm && \
+RUN apk --update add nginx php85-fpm && \
     mkdir -p /run/nginx
 
 ADD www /www

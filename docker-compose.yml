@@ -1,4 +1,5 @@
-helloworld:
-  build: .
-  ports:
-    - "80:80"
+services:
+  helloworld:
+    build: .
+    ports:
+      - "80:80"
