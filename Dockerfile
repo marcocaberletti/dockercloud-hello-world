@@ -5,7 +5,7 @@ RUN apk --update add nginx php85-fpm && \
 
 ADD www /www
 ADD nginx.conf /etc/nginx/
-ADD php-fpm.conf /etc/php5/php-fpm.conf
+ADD php-fpm.conf /etc/php85/php-fpm.conf
 ADD run.sh /run.sh
 
 ENV LISTEN_PORT=80
